@@ -60,6 +60,7 @@ export default function CustomActivitiesPage() {
   const handleSelect = (activity: Activity) => {
     const startTime = startTimes[activity.id];
     const endTime = endTimes[activity.id];
+    const today = new Date().toISOString().split('T')[0];
 
     if (!startTime || !endTime) {
       alert("Please specify start and end times");
@@ -68,8 +69,8 @@ export default function CustomActivitiesPage() {
 
     const activityWithTimes = {
       ...activity,
-      startTime,
-      endTime,
+      startTime: `${today}T${startTime}`,
+      endTime: `${today}T${endTime}`,
       id: `${activity.id}-${Date.now()}`, // unique ID
     };
 
