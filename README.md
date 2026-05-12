@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StampClock
 
-## Getting Started
+A modern activity logging and employee time-tracking system designed to simplify warehouse workflows and improve the user experience of clock-in and activity registration systems.
 
-First, run the development server:
+The project focuses on reducing delays, simplifying navigation, and creating a faster and more intuitive interface for employees during daily work activities and breaks.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Clock in / clock out system
+- Activity tracking and logging
+- Real-time activity updates
+- Responsive and modern UI
+- Inactivity detection and warnings
+- Confirmation dialogs and notifications
+- Mobile-friendly interface
+- Simplified workflow for warehouse employees
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Problem Background
 
-To learn more about Next.js, take a look at the following resources:
+Traditional warehouse activity systems often suffer from:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- slow and outdated interfaces
+- crowded menus
+- long waiting times during breaks
+- poor touchscreen responsiveness
+- high cognitive load for employees
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project redesigns the workflow with a cleaner and more user-friendly experience focused on speed and accessibility.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- React Router
+
+---
+
+## User Interface
+
+The application includes:
+
+- login page
+- activity dashboard
+- activity cards
+- inactivity warning system
+- confirmation pages
+- responsive layouts for different devices
+
+The UI was designed with usability and accessibility principles in mind.
+
+---
+
+## System Functionality
+
+Employees can:
+
+- start activities
+- stop activities
+- switch between tasks
+- track working sessions
+- confirm actions through dialogs
+- receive inactivity warnings automatically
+
+The system aims to make activity logging faster and more efficient compared to traditional warehouse solutions.
+
+---
+
+## Focus Areas
+
+This project focused heavily on:
+
+- User Experience (UX)
+- Human-Computer Interaction (HCI)
+- Workflow optimization
+- Responsive frontend development
+- Accessibility and usability
+
+---
+
+## Future Improvements
+
+Potential future extensions include:
+
+- backend integration
+- employee authentication
+- database storage
+- analytics dashboard
+- manager overview panel
+- shift scheduling
+- real-time reporting
+- QR or NFC-based employee identification
+
+---
+
+## Learning Outcomes
+
+This project strengthened skills in:
+
+- frontend development
+- React and TypeScript
+- UI/UX design
+- component-based architecture
+- responsive design
+- HCI principles
+- teamwork and Git workflow
+
+---
+
+## Authors
+
+Developed as a university project in Computer Engineering.
